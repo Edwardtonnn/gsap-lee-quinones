@@ -1,0 +1,59 @@
+@font-face {
+  font-family: Glitch;
+  src: url(fonts/Glitch.woff);
+}
+
+.home-wrapper {
+  height: 100vh;
+}
+
+.home-wrapper * {
+  position: relative;
+}
+
+.home-wrapper h1 {
+  font-family: Glitch;
+  font-size: 4rem;
+  text-align: center;
+}
+
+@media (max-width: 1100px) {
+  .home-wrapper h1 {
+    font-size: 2rem;
+  }
+}
+
+.home-wrapper .container-home {
+  background-image: url(images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.home-wrapper .container-red {
+  background-image: url(images/red-bg.jpg);
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.container-bio {
+  height: 50vh;
+}
+
+.container-art-display {
+  height: 50vh;
+}
+
+@media (max-width: 1100px) {
+  .container-bio {
+    height: 100%;
+  }
+  .container-art-display {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
